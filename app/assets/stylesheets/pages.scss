@@ -1,3 +1,99 @@
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+.info{
+    padding:50px;
+     margin:10px;
+     background-color: lightgrey;
+     font-family: Arial;
+}
+
+.img{
+  max-width: 600px;
+  margin: 12px;
+
+}
+
+.imgbackground{
+   background-color: lightgrey;
+   padding: 5px;
+    max-width: 610px;
+    width: 98%;
+}
+
+
+.bottomdescription{
+  width: 600px;
+  text-align: left
+}
+
+.container1{
+
+  padding:20px;
+  margin:10px;
+  background-color: grey;
+  font-family: Arial;
+}
+
+
+.description{
+  font-size: 13pt;
+
+}
+
+
+.topdescription{
+  font-size: 14pt
+}
+
+
+/* Diplay content below 700px width*/
+
+@media screen and (max-width: 700px) {
+
+
+
+.info{
+
+ 
+     background-color: darkgrey;
+     font-family: Arial;
+}
+
+
+
+.img{
+
+  margin: 0px;
+
+}
+
+.imgbackground{
+padding: 0px;
+}
+
+.bottomdescription{
+  width: 300px;
+  text-align: left;
+  font-size: 9pt
+}
+
+
+
+.container1{
+
+  padding:0px;
+  margin: 0px;
+  background-color: grey;
+  font-family: Arial;
+}
+
+.topdescription{
+  font-size: 12pt
+}
+}
+
+
+
+
