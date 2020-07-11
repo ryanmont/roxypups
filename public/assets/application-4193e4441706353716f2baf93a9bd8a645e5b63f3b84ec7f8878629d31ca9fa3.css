@@ -1,0 +1,112 @@
+/* line 3, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+.topheader {
+  font-family: Impact;
+}
+
+/* line 8, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+.dogname {
+  color: white;
+  font-family: Impact;
+}
+
+/* line 13, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+.info {
+  padding: 50px;
+  margin: 10px;
+  background-color: lightgrey;
+  font-family: Arial;
+}
+
+/* line 20, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+.img {
+  max-width: 600px;
+  margin: 12px;
+}
+
+/* line 26, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+.imgbackground {
+  background-color: lightgrey;
+  padding: 5px;
+  max-width: 610px;
+  width: 98%;
+}
+
+/* line 34, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+.bottomdescription {
+  width: 600px;
+  text-align: left;
+}
+
+/* line 39, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+.container1 {
+  padding: 20px;
+  margin: 10px;
+  background-color: grey;
+  font-family: Arial;
+}
+
+/* line 48, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+.description {
+  font-size: 13pt;
+}
+
+/* line 54, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+.topdescription {
+  font-size: 14pt;
+}
+
+/* Diplay content below 700px width*/
+@media screen and (max-width: 700px) {
+  /* line 65, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+  .info {
+    padding: 0px;
+    background-color: darkgrey;
+    font-family: Arial;
+  }
+
+  /* line 74, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+  .img {
+    margin: 0px;
+  }
+
+  /* line 80, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+  .imgbackground {
+    padding: 0px;
+  }
+
+  /* line 84, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+  .bottomdescription {
+    width: 300px;
+    text-align: left;
+    font-size: 9pt;
+  }
+
+  /* line 92, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+  .container1 {
+    padding: 0px;
+    margin: 0px;
+    background-color: grey;
+    font-family: Arial;
+  }
+
+  /* line 100, /Users/mikejones/pups/app/assets/stylesheets/pages.scss */
+  .topdescription {
+    font-size: 12pt;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
